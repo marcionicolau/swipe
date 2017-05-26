@@ -40,8 +40,8 @@ class App extends React.Component {
     return (
       <View style={styles.container}>
         <Deck
-          data = {DATA}
-          renderCard = {this.renderCard} />
+          data={DATA}
+          renderCard={this.renderCard} />
       </View>
     );
   }
